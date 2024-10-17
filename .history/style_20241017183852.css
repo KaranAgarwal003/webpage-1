@@ -1,0 +1,41 @@
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url('https://www.w3schools.com/w3images/parallax1.jpg');
+    min-height: 100vh;
+}
+
+.bgimg-2 {
+    background-image: url('https://www.w3schools.com/w3images/parallax2.jpg');
+    min-height: 100vh;
+}
+
+.bgimg-3 {
+    background-image: url('https://www.w3schools.com/w3images/parallax3.jpg');
+    min-height: 100vh;
+}
+
+.w3-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.w3-padding-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+header, section, div.bgimg-1, div.bgimg-2, div.bgimg-3 {
+    position: relative;
+    width: 100%;
+}
+
+.w3-button {
+    text-transform: uppercase;
+    margin-top: 16px;
+}
